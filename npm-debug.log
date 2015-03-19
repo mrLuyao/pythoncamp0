@@ -1,0 +1,257 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gitbook', '-pdf', '-g' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn using --force I sure hope you know what you are doing.
+5 silly cache add args [ 'gitbook', null ]
+6 verbose cache add spec gitbook
+7 silly cache add parsed spec { raw: 'gitbook',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'gitbook',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed gitbook@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'gitbook', range: '*', hasData: false }
+12 silly mapToRegistry name gitbook
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gitbook
+16 verbose addNameRange registry:https://registry.npmjs.org/gitbook not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gitbook
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 21:59:03
+20 verbose request id ad453af03da83892
+21 verbose etag "8EUBPGGQLCBKFW7NVSDTN8CB8"
+22 http request GET https://registry.npmjs.org/gitbook
+23 http 304 https://registry.npmjs.org/gitbook
+24 silly get cb [ 304,
+24 silly get   { date: 'Thu, 19 Mar 2015 13:59:04 GMT',
+24 silly get     server: 'Apache',
+24 silly get     via: '1.1 varnish',
+24 silly get     'last-modified': 'Thu, 19 Mar 2015 13:59:05 GMT',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"8EUBPGGQLCBKFW7NVSDTN8CB8"',
+24 silly get     age: '0',
+24 silly get     'x-served-by': 'cache-nrt6125-NRT',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1426773544.809390,VS0,VE718',
+24 silly get     vary: 'Accept',
+24 silly get     'content-length': '0',
+24 silly get     'keep-alive': 'timeout=10, max=50',
+24 silly get     connection: 'Keep-Alive' } ]
+25 verbose etag https://registry.npmjs.org/gitbook from cache
+26 verbose get saving gitbook to /Users/Luyao/.npm/registry.npmjs.org/gitbook/.cache.json
+27 silly addNameRange number 2 { name: 'gitbook', range: '*', hasData: true }
+28 silly addNameRange versions [ 'gitbook',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.4.6',
+28 silly addNameRange     '0.4.7',
+28 silly addNameRange     '0.4.8',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.5.6',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.3.4',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '2.0.0-alpha.1',
+28 silly addNameRange     '2.0.0-alpha.2',
+28 silly addNameRange     '2.0.0-alpha.3',
+28 silly addNameRange     '2.0.0-alpha.4',
+28 silly addNameRange     '2.0.0-alpha.5',
+28 silly addNameRange     '2.0.0-alpha.6',
+28 silly addNameRange     '2.0.0-alpha.7',
+28 silly addNameRange     '2.0.0-alpha.8',
+28 silly addNameRange     '2.0.0-alpha.9',
+28 silly addNameRange     '2.0.0-beta.1',
+28 silly addNameRange     '2.0.0-beta.2',
+28 silly addNameRange     '2.0.0-beta.3',
+28 silly addNameRange     '2.0.0-beta.4',
+28 silly addNameRange     '2.0.0-beta.5' ] ]
+29 verbose addNamed gitbook@1.5.0
+30 silly addNamed semver.valid 1.5.0
+31 silly addNamed semver.validRange 1.5.0
+32 silly mapToRegistry name gitbook
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/gitbook
+36 verbose addRemoteTarball https://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz',
+37 verbose addRemoteTarball   'a66ccb73d7ce162a8c9e4bae531e1d54ee964080' ]
+38 info retry fetch attempt 1 at 21:59:05
+39 info attempt registry request try #1 at 21:59:05
+40 http fetch GET https://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz
+41 http fetch 200 https://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz
+42 silly fetchAndShaCheck shasum a66ccb73d7ce162a8c9e4bae531e1d54ee964080
+43 verbose addTmpTarball /var/folders/0r/c2nvpngx1v1335xwm13n27zc0000gn/T/npm-8084-0bf054e0/registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for gitbook@1.5.0
+45 silly cache afterAdd gitbook@1.5.0
+46 verbose afterAdd /Users/Luyao/.npm/gitbook/1.5.0/package/package.json not in flight; writing
+47 verbose afterAdd /Users/Luyao/.npm/gitbook/1.5.0/package/package.json written
+48 silly install resolved [ { name: 'gitbook',
+48 silly install resolved     version: '1.5.0',
+48 silly install resolved     homepage: 'http://www.gitbook.io/',
+48 silly install resolved     description: 'Library and cmd utility to generate GitBooks',
+48 silly install resolved     main: 'lib/index.js',
+48 silly install resolved     dependencies:
+48 silly install resolved      { q: '1.0.1',
+48 silly install resolved        lodash: '2.4.1',
+48 silly install resolved        kramed: '0.4.3',
+48 silly install resolved        'kramed-text-renderer': '0.2.1',
+48 silly install resolved        lunr: '0.5.2',
+48 silly install resolved        swig: '1.3.2',
+48 silly install resolved        send: '0.2.0',
+48 silly install resolved        'fstream-ignore': '0.0.7',
+48 silly install resolved        commander: '2.2.0',
+48 silly install resolved        'graceful-fs': '3.0.2',
+48 silly install resolved        'fs-extra': '0.10.0',
+48 silly install resolved        'highlight.js': '8.3.0',
+48 silly install resolved        tmp: '0.0.23',
+48 silly install resolved        semver: '2.2.1',
+48 silly install resolved        npmi: '0.1.1',
+48 silly install resolved        gaze: '~0.5.1',
+48 silly install resolved        resolve: '0.6.3',
+48 silly install resolved        'tiny-lr-fork': '0.0.5',
+48 silly install resolved        'gitbook-plugin': '0.0.2',
+48 silly install resolved        'gitbook-plugin-mathjax': '0.0.6',
+48 silly install resolved        'gitbook-plugin-livereload': '0.0.1',
+48 silly install resolved        'gitbook-plugin-exercises': '1.0.0',
+48 silly install resolved        'gitbook-plugin-quizzes': '1.0.0' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { mocha: '1.18.2',
+48 silly install resolved        grunt: '~0.4.2',
+48 silly install resolved        'grunt-cli': '0.1.11',
+48 silly install resolved        'grunt-contrib-copy': '0.5.0',
+48 silly install resolved        'grunt-contrib-less': '~0.5.0',
+48 silly install resolved        'grunt-contrib-requirejs': '0.4.1',
+48 silly install resolved        'grunt-bower-install-simple': '0.9.2',
+48 silly install resolved        'grunt-browserify': '3.1.0',
+48 silly install resolved        'grunt-contrib-uglify': '0.6.0' },
+48 silly install resolved     scripts: { test: 'export TESTING=true; mocha --reporter list' },
+48 silly install resolved     bin: { gitbook: './bin/gitbook.js' },
+48 silly install resolved     repository: { type: 'git', url: 'https://github.com/GitbookIO/gitbook.git' },
+48 silly install resolved     keywords: [ 'git', 'book', 'gitbook' ],
+48 silly install resolved     author: { name: 'FriendCode', email: 'contact@friendco.de' },
+48 silly install resolved     license: 'Apache 2',
+48 silly install resolved     bugs: { url: 'https://github.com/GitbookIO/gitbook/issues' },
+48 silly install resolved     contributors: [ [Object], [Object] ],
+48 silly install resolved     _id: 'gitbook@1.5.0',
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: 'a66ccb73d7ce162a8c9e4bae531e1d54ee964080',
+48 silly install resolved        tarball: 'http://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz' },
+48 silly install resolved     _from: 'gitbook@*',
+48 silly install resolved     _npmVersion: '1.4.6',
+48 silly install resolved     _npmUser: { name: 'aarono', email: 'aaron.omullan@gmail.com' },
+48 silly install resolved     maintainers: [ [Object], [Object] ],
+48 silly install resolved     directories: {},
+48 silly install resolved     _shasum: 'a66ccb73d7ce162a8c9e4bae531e1d54ee964080',
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook/-/gitbook-1.5.0.tgz' } ]
+49 info install gitbook@1.5.0 into /usr/local/lib
+50 info installOne gitbook@1.5.0
+51 verbose installOne of gitbook to /usr/local/lib not in flight; installing
+52 verbose lock using /Users/Luyao/.npm/_locks/gitbook-cff0122b61afa1e1.lock for /usr/local/lib/node_modules/gitbook
+53 silly install write writing gitbook 1.5.0 to /usr/local/lib/node_modules/gitbook
+54 silly cache addNamed cb gitbook@1.5.0
+55 verbose unbuild lib/node_modules/gitbook
+56 info preuninstall gitbook@1.5.0
+57 info uninstall gitbook@1.5.0
+58 verbose unbuild rmStuff gitbook@1.5.0 from /usr/local/lib/node_modules
+59 verbose gentlyRm verifying that /usr/local is managed by npm
+60 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+61 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+62 silly isManaged /usr/local/bin is inside /usr/local
+63 silly gentlyRm /usr/local is managed by npm
+64 silly gentlyRm /usr/local/bin/gitbook is under /usr/local
+65 verbose gentlyRm vacuuming /usr/local/bin/gitbook up to /usr/local
+66 silly gentlyRm purging /usr/local/bin/gitbook
+67 silly gentlyRm quitting because other entries in /usr/local/bin
+68 info postuninstall gitbook@1.5.0
+69 verbose gentlyRm vacuuming /usr/local/lib/node_modules/gitbook
+70 silly gentlyRm purging /usr/local/lib/node_modules/gitbook
+71 verbose unlock done using /Users/Luyao/.npm/_locks/gitbook-cff0122b61afa1e1.lock for /usr/local/lib/node_modules/gitbook
+72 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook'
+72 verbose stack     at Error (native)
+73 verbose cwd /Users/Luyao/pythoncamp0
+74 error Darwin 14.1.0
+75 error argv "node" "/usr/local/bin/npm" "install" "gitbook" "-pdf" "-g"
+76 error node v0.12.0
+77 error npm  v2.5.1
+78 error path /usr/local/lib/node_modules/gitbook
+79 error code EACCES
+80 error errno -13
+81 error Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook'
+81 error     at Error (native)
+81 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   path: '/usr/local/lib/node_modules/gitbook' }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/gitbook
+85 info preuninstall gitbook@1.5.0
+86 info uninstall gitbook@1.5.0
+87 verbose unbuild rmStuff gitbook@1.5.0 from /usr/local/lib/node_modules
+88 verbose gentlyRm verifying that /usr/local is managed by npm
+89 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+90 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+91 silly isManaged /usr/local is not inside /usr/local/bin
+92 silly isManaged /usr/local is inside /usr/local
+93 silly gentlyRm /usr/local is managed by npm
+94 silly gentlyRm /usr/local/bin/gitbook is under /usr/local
+95 verbose gentlyRm vacuuming /usr/local/bin/gitbook up to /usr/local
+96 info postuninstall gitbook@1.5.0
+97 verbose gentlyRm vacuuming /usr/local/lib/node_modules/gitbook
+98 silly gentlyRm purging /usr/local/lib/node_modules/gitbook
+99 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook'
+99 error error rolling back     at Error (native)
+99 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook']
+99 error error rolling back   errno: -13,
+99 error error rolling back   code: 'EACCES',
+99 error error rolling back   path: '/usr/local/lib/node_modules/gitbook' }
