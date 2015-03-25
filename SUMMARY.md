@@ -7,6 +7,7 @@
   * [Markdown](./source/part1/3.md)
 * [第二章:开始学习](./source/part2/introduction.md)
   * [你好，新世界](./source/part2/1.md)
+  * [第一次Python：Guess the number](./source/part2/2.md)
 * [附录:学习印痕](./source/appendix/introduction.md)
   * [开光大会](./source/appendix/0.md)
   * [第一周答疑](./source/appendix/1.md)
